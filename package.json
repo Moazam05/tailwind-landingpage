@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-landingpage",
+  "version": "1.0.0",
+  "description": "Tailwind LandingPage",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "author": "Salman Moazam",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
